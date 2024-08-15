@@ -1,0 +1,42 @@
+@import "../../assets/global";
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: $Primory;
+    padding: 19px 32px;
+}
+
+.Form_Search {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.User_input {
+    width: 912px;
+    border: 1px solid $Secondary;
+    background-color: $Background;
+    font-size: 24px;
+    border-radius: 4px;
+    height: 42px;
+    padding: 18px 0px 18px 16px;
+
+    &:hover {
+        outline: none;
+    }
+}
+
+.btn_search {
+    padding: 8px 22px 8px 22px;
+    background-color: $Background-button;
+    border-radius: 50px;
+}
+
+.footer {
+
+    width: 100%;
+    height: 32px;
+    background-color: $Secondary;
+
+}
